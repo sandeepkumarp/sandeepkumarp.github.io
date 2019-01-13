@@ -4,8 +4,9 @@
 <!--[if !IE]><!-->
 <html lang="en">
 <!--<![endif]-->
+
 <head>
-    <title>SANDEEP PILAKHNAWAL | Creative Springbok</title>
+    <title>Portfolio | SANDEEP PILAKHNAWAL</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <!-- github acitivity css -->
+    <!-- github activity css -->
     <link rel="stylesheet" href="assets/plugins/github-activity/dist/github-activity-0.1.1.min.css">
     <link rel="stylesheet" href="assets/plugins/github-activity/dist/octicons/octicons.min.css">
 
@@ -31,17 +32,20 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-76210108-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-76210108-1', 'auto');
+        ga('send', 'pageview');
 
-</script>
+    </script>
 
 </head>
+
 <body>
     <!-- ******HEADER****** -->
     <header class="header">
@@ -49,18 +53,22 @@
             <img class="profile-image img-responsive pull-left" src="assets/images/profile.jpg" alt="Sandeep Kr. Pilakhnawal" />
             <div class="profile-content pull-left">
                 <h1 class="name">Sandeep Kumar Pilakhnawal</h1>
-                <h2 class="desc">Developer<br />{ Apps, Games, Web }</h2>
+                <h2 class="desc">Programmer<br />{ VR, AR, Games }</h2>
                 <ul class="social list-inline">
                     <li><a href="https://twitter.com/sandeep_kumar_p" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     <!--<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>-->
                     <li><a href="https://in.linkedin.com/in/sandeeppilakhnawal" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="last-item"><a href="https://github.com/sandeepkumarp/"><i class="fa fa-github-alt"></i></a></li>
+                    <li class="last-item"><a href="https://github.com/sandeepkumarp/" target="_blank"><i class="fa fa-github-alt"></i></a></li>
 
                 </ul>
-            </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="mailto:sandeep.pilakhnawal@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>
-        </div><!--//container-->
-    </header><!--//header-->
+            </div>
+            <!--//profile-->
+            <a class="btn btn-cta-primary pull-right" href="mailto:sandeep.pilakhnawal@gmail.com" target="_blank"><i
+                    class="fa fa-paper-plane"></i> Contact Me</a>
+        </div>
+        <!--//container-->
+    </header>
+    <!--//header-->
 
     <div class="container sections-wrapper">
         <div class="row">
@@ -69,13 +77,35 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>I'm a freelance developer based in India. I specialize in building Games (Unity3D) and native Android apps.</p>
+                            <p>I'm a programmer based in India, specializing in making Games and VR experiences in <b>Unreal
+                                    Engine</b> and Unity3D.</p>
+                            <p>I'm generally excited about AR, VR, Shaders and Machine Learning and their applications.
+                                I'm always looking for new opportunities and team-ups. </p>
+                            <p>I like Travelling, Gadgets and play bass guitar.</p>
 
-                            <p>I like Travelling, Gadgets and play bass guitar. I follow startups and Indie game developers. I'm looking for new opportunities and team-ups. You may also find my articles on different blogs.</p>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+                <!-- Preparing a container for calendar. -->
+                <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+                </script>
+
+                <!-- Including the theme -->
+                <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
+
+                <!-- Prepare a container for your calendar. -->
+                <div class="calendar">
+                    <!-- Loading stuff -->
+                    Loading data form GitHub.
+                </div>
+
+                <script>
+                    new GitHubCalendar(".calendar", "sandeepkumarp");
+                </script>
 
                 <section class="latest section">
                     <div class="section-inner">
@@ -83,11 +113,16 @@
                         <div class="content">
 
                             <div class="item featured text-center">
-                                <h3 class="title"><a href="https://play.google.com/store/apps/details?id=com.creativespringbok.sparklegends" target="_blank"><emp>Spark Legends</emp></a></h3>
+                                <h3 class="title"><a href="https://play.google.com/store/apps/details?id=com.creativespringbok.sparklegends"
+                                        target="_blank">
+                                        <emp>Spark Legends</emp>
+                                    </a></h3>
                                 <h5 class="summary">A 2D platformer game for Android</h5>
                                 <div class="featured-image">
-                                    <a href="https://play.google.com/store/apps/details?id=com.creativespringbok.sparklegends" target="_blank">
-                                        <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="Spark Legends - Android Game" />
+                                    <a href="https://play.google.com/store/apps/details?id=com.creativespringbok.sparklegends"
+                                        target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/projects/project-featured.png"
+                                            alt="Spark Legends - Android Game" />
                                     </a>
                                     <div class="ribbon">
                                         <div class="text">Game</div>
@@ -95,28 +130,49 @@
                                 </div>
 
                                 <div class="desc text-left">
-                                    <p>This is a 2D platformer made using Unity 3D game engine using C# . The theme of the game is based on damsel in distress whereas it also features additional light based game mechanics. Though I’ve made many games, I created this game in a couple of months as my first finished game. The game features Achievements and Leaderboard for social gaming with friends.</p>
+                                    <p>This is a 2D platformer made using Unity 3D game engine using C# . The theme of
+                                        the game is based on damsel in distress whereas it also features additional
+                                        light based game mechanics. Though I’ve made many games, I created this game in
+                                        a couple of months as my first finished game. The game features Achievements
+                                        and Leaderboard for social gaming with friends.</p>
 
-                                </div><!--//desc-->
-                                <a class="btn btn-cta-secondary" href="https://play.google.com/store/apps/details?id=com.creativespringbok.sparklegends" target="_blank"><i class="fa fa-download"></i> Download My Game</a>
-                            </div><!--//item-->
+                                </div>
+                                <!--//desc-->
+                                <a class="btn btn-cta-secondary" href="https://play.google.com/store/apps/details?id=com.creativespringbok.sparklegends"
+                                    target="_blank"><i class="fa fa-download"></i> Download My Game</a>
+                            </div>
+                            <!--//item-->
                             <hr class="divider" />
                             <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://creativespringbok.com/traveltingu" target="_blank">
-                                    <img class="img-responsive project-image" src="assets/images/projects/project-5.png" alt="Travel Tingu" />
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://creativespringbok.com/traveltingu"
+                                    target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-5.png"
+                                        alt="Travel Tingu" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="http://creativespringbok.com/traveltingu" target="_blank">Travel Tingu - Intelligent Tourism Planner</a></h3>
-                                    <p>This web app takes basic inputs such as Current Location, Budget, Number of people and days to spare; and gives you list of feasible tourism locations based on the given constraints. It will further offer detail planning for a specific tour package. This app is currently limited to Himachal Pradesh due limited data collection. Being in beta phase, you can run into bugs and it's not yet responsive yet which I'll fix in the next version.</p>
-                                    <p><a class="more-link" href="http://creativespringbok.com/traveltingu" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
+                                    <h3 class="title"><a href="http://creativespringbok.com/traveltingu" target="_blank">Travel
+                                            Tingu - Intelligent Tourism Planner</a></h3>
+                                    <p>This web app takes basic inputs such as Current Location, Budget, Number of
+                                        people and days to spare; and gives you list of feasible tourism locations
+                                        based on the given constraints. It will further offer detail planning for a
+                                        specific tour package. This app is currently limited to Himachal Pradesh due
+                                        limited data collection. Being in beta phase, you can run into bugs and it's
+                                        not yet responsive yet which I'll fix in the next version.</p>
+                                    <p><a class="more-link" href="http://creativespringbok.com/traveltingu" target="_blank"><i
+                                                class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>
+                                <!--//desc-->
+                            </div>
+                            <!--//item-->
 
 
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
                 <!--<section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">Work Experience</h2>
@@ -133,8 +189,9 @@
                 <!--//END OF EXPERIENCE section-->
 
 
-                
-            </div><!--//primary-->
+
+            </div>
+            <!--//primary-->
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
                 <aside class="info aside section">
                     <div class="section-inner">
@@ -142,11 +199,17 @@
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>India</li>
-                                <li><a href="https://twitter.com/Sandeep_Kumar_P" class="twitter-follow-button" data-show-count="false">Follow @Sandeep_Kumar_P</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+                                <li><a href="https://twitter.com/Sandeep_Kumar_P" class="twitter-follow-button"
+                                        data-show-count="false">Follow @Sandeep_Kumar_P</a>
+                                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </li>
                             </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//aside-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//aside-->
 
                 <aside class="skills aside section">
                     <div class="section-inner">
@@ -159,50 +222,87 @@
                             <div class="skillset">
 
                                 <div class="item">
-                                    <h3 class="level-title">Android<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Currenly making new apps under Udacity Android Developer Nanodegree program">Intermediate</span></h3>
+                                    <h3 class="level-title">Unity3D (C#)<span class="level-label">Intermediate-Expert</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="60%">
+                                        <div class="level-bar-inner" data-level="80%">
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">Unity3D &amp; C#<span class="level-label">Intermediate-Expert</span></h3>
+                                    <h3 class="level-title">Unreal Engine (C++)<span class="level-label">Intermediate</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
+                                        <div class="level-bar-inner" data-level="50%">
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">HTML5 &amp; CSS3<span class="level-label">Expert</span></h3>
+                                    <h3 class="level-title">Blender<span class="level-label">Novice</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="90%">
+                                        <div class="level-bar-inner" data-level="20%">
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">Javascript<span class="level-label">Intermediate</span></h3>
+                                    <h3 class="level-title">Android (Native)<span class="level-label" data-toggle="tooltip"
+                                            data-placement="left" data-animation="true" title="Currently making new apps under Udacity Android Developer Nanodegree program">Intermediate -> Past
+                                            Experience</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="50%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+
+
+                                <div class="item">
+                                    <h3 class="level-title">HTML5 &amp; CSS3<span class="level-label">Past Experience</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="55%">
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">PHP<span class="level-label">Intermediate</span></h3>
+                                    <h3 class="level-title">Javascript<span class="level-label">Past Experience</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
+                                        <div class="level-bar-inner" data-level="55%">
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">PHP<span class="level-label">Past Experience</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="55%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
 
 
                             </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
                 <!--<aside class="testimonials aside section">
                     <div class="section-inner">
                         <h2 class="heading">Testimonials</h2>
@@ -221,7 +321,7 @@
                 </aside>-->
                 <!--//END OF TESTIMONIAL section-->
 
-				<aside class="list music aside section">
+                <aside class="list music aside section">
                     <div class="section-inner">
                         <!-- <h2 class="heading">Favourite coding music/album</h2>
                         <div class="content">
@@ -233,8 +333,12 @@
                                 and more :)
                             </ul>
                         </div> -->
-                        <a href="https://twitter.com/Sandeep_Kumar_P" class="twitter-follow-button" data-show-count="false">Follow @Sandeep_Kumar_P</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br/>
-                        <a class="twitter-timeline" data-height="600" href="https://twitter.com/Sandeep_Kumar_P">Tweets by Sandeep_Kumar_P</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <a href="https://twitter.com/Sandeep_Kumar_P" class="twitter-follow-button" data-show-count="false">Follow
+                            @Sandeep_Kumar_P</a>
+                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+                        <a class="twitter-timeline" data-height="600" href="https://twitter.com/Sandeep_Kumar_P">Tweets
+                            by Sandeep_Kumar_P</a>
+                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </aside>
 
@@ -243,13 +347,18 @@
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> B.Tech (Hons) - Computer Science and Engineering</h3>
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> B.Tech (Hons) - Computer Science
+                                    and Engineering</h3>
                                 <h4 class="university">Lovely Professioanl University, India</h4>
-                            </div><!--//item-->
+                            </div>
+                            <!--//item-->
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
 
                 <aside class="languages aside section">
                     <div class="section-inner">
@@ -258,17 +367,26 @@
                             <ul class="list-unstyled">
                                 <li class="item">
                                     <span class="title"><strong>English:</strong></span><br />
-                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs" /><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
-                                </li><!--//item-->
+                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs" /><i
+                                            class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i></span>
+                                </li>
+                                <!--//item-->
                                 <li class="item">
                                     <span class="title"><strong>Hindi:</strong></span><br />
-                                    <span class="level">Native Speaker <br class="visible-xs" /><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li><!--//item-->
+                                    <span class="level">Native Speaker <br class="visible-xs" /><i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i> </span>
+                                </li>
+                                <!--//item-->
 
                             </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
 
                 <aside class="blog aside section">
                     <div class="section-inner">
@@ -276,11 +394,14 @@
                         <p><em>Coming Soon !!</em><br />Keep checking this spot. :D</p>
                         <!--NOTE TO SELF : Use https://github.com/sdepold/jquery-rss jQuery RSS plugin to pull in the blog post feeds.-->
                         <div id="rss-feeds" class="content">
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
 
-                
+
                 <!--<aside class="list conferences aside section">
                     <div class="section-inner">
                         <h2 class="heading">Conferences</h2>
@@ -296,13 +417,17 @@
 
 
 
-            </div><!--//secondary-->
-        </div><!--//row-->
-    </div><!--//masonry-->
+            </div>
+            <!--//secondary-->
+        </div>
+        <!--//row-->
+    </div>
+    <!--//masonry-->
     <!-- ******FOOTER****** -->
     <footer class="footer">
         <div class="container text-center">
-            <small>Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
+            <small>Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying
+                    Riley</a></small>
         </div>
     </footer>
     <!-- Javascript -->
@@ -316,4 +441,5 @@
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
+
 </html>
